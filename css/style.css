@@ -165,7 +165,7 @@ ul {
 @media only screen and (min-width: 600px) {
   .intro-wrapper {
     flex-direction: column-reverse;
-    background: url("/images/me.JPG");
+    background: url(../images/me.JPG);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ ul {
     padding-top: 8%;
   }
   .intro__secondary {
-    background: url("/images/me.JPG");
+    background: url(../images/me.JPG);
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
