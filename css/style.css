@@ -284,6 +284,7 @@ ul {
 .history {
   margin-bottom: 4em;
   letter-spacing: 5px;
+  font-size: .75rem;
 }
 .history-title {
   margin: 1em 0;
@@ -296,7 +297,12 @@ ul {
 }
 .history div{
   box-shadow: 4px 10px 6px -6px #777;
-  padding-left: 10px;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.history p:last-child{
+  line-height: 1.5;
 }
 .achievement{
   box-shadow: none !important; 
@@ -309,6 +315,10 @@ ul {
   .history div {
     margin-bottom: 2em;
     padding-right: 1.5em;
+  }
+
+  .history p:last-child{
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -367,6 +377,7 @@ ul {
   display: flex;
   justify-content: space-around;
   padding: 0 1em 0 0;
+  font-size: 10px;
 }
 .project-info p{
   width: 40%;
