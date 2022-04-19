@@ -130,8 +130,19 @@ ul {
     width: 90%;
     margin: 0 auto;
   }
-  .half {
+  .half-column,
+  .half-bottom,
+  .half{
     width: 50%;
+  }
+  .half-bottom{
+    display: flex;
+    /* align-items: center; */
+    /* padding-left: 24px; */
+    justify-content: flex-end;
+  }
+  .half-bottom div:nth-child(odd){
+    margin-right: 26px;
   }
   /* .menu-btn__burger {
     background-color: #111;
